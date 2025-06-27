@@ -14,4 +14,4 @@ SUSE 使用 polkit-default-private做polkit action管控
 * 使用rules机制,实现某个用户某个action不再鉴权;可以放到polkit-agent中,让用户选择;
 * 以及可以实现全局action统一管理,仿照windows调整级别:![image.png](https://cdn.jsdelivr.net/gh/KT-lcz/note-gen-image-sync@main/2025-06/4f4f94a1-6aa5-4da6-a192-026e33ede01d.png)
 * 默认级别应设置为严格或标准,以及可以在polkit-agent中可以跳转到级别调整;
-
+* gnome下鉴权是模态窗口,可以更好的仿照win的实效效果
